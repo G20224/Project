@@ -395,3 +395,15 @@ font-size: 55px;
   font: 700 normal 2em 'tahoma';
   text-shadow: 5px 2px #b16ae6, 2px 4px #b16ae6, 3px 5px #b16ae6;
 }
+
+.b1{
+    padding: 8px 15px;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 433px;
+}
