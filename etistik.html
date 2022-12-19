@@ -285,6 +285,64 @@ body {
     transform: translateY(-20px) 
   } 
 }
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); 
+* { 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: border-box; 
+} 
+ 
+body { 
+  background-color:  #151719; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh; 
+} 
+.waviy { 
+  position: relative; 
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,11,200,.2)); 
+  font-size: 60px; 
+} 
+.waviy span { 
+  font-family: 'Alfa Slab One', cursive; 
+  position: relative; 
+  display: inline-block; 
+  color: #fff; 
+  text-transform: uppercase; 
+  animation: waviy 1s infinite; 
+  animation-delay: calc(.1s * var(--i)); 
+   
+} 
+
+@media (max-width:991px){
+    body{
+    min-height:100vh;
+    background: linear-gradient(-40deg, rgba(255, 255, 255, 0.8) 0%, #e0e5ff 100%);
+    }
+    .container{ 
+    width: 100%;
+    height: auto;  
+    border-radius: 4px;
+    background: linear-gradient(to right bottom, rgba(155, 146, 255, 0.8), #aaffef);
+    margin-top:-10px;
+    }
+    .waviy { 
+    position: relative; 
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,11,200,.2)); 
+    font-size: 60px;
+    } 
+    .waviy span { 
+  font-family: 'Alfa Slab One', cursive; 
+  position: relative; 
+  display: inline-block; 
+  color: #fff; 
+  text-transform: uppercase; 
+  animation: waviy 1s infinite; 
+  animation-delay: calc(.1s * var(--i)); 
+  margin-left:-20px;
+   
+}
 
 
 
